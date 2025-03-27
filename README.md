@@ -285,7 +285,7 @@ while x < 5:
 a = 2
 b = 7
 while a <= b:
-    b -= a
+    b = b - a
     print(b)
 print(a)
 ```
